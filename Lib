@@ -183,6 +183,6 @@ KeySystem.Link = function(v0)
 	else warn("Error: 3 (Incorrect link)") c2.Text = "Incorrect link"c1.ImageColor3 = Color3.fromHex("#f14668") c2.TextColor3 = Color3.fromHex("#f14668") end
 end
 KeySystem.Script = function(v0)
-	pcall(function() __Script = v0 end)
+	pcall(function() __Script = tostring(v0) end)
 end
 return KeySystem
