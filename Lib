@@ -1,5 +1,4 @@
-local KeySystem = {}
-print("\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤㅤㅤㅤKey System v1.0 \nㅤㅤㅤㅤDiscord: https://discord.gg/wKpxWqarYk\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ")
+local KeySystem = {}																																																																																																																																																													print("\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤㅤㅤㅤKey System v1.0 \nㅤㅤㅤㅤDiscord: https://discord.gg/wKpxWqarYk\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ\nㅤ")
 local __Script = "warn(\"Error: 4 (Script not found)\")"
 local __Link = ""
 local a0 = Instance.new("Frame")
@@ -119,7 +118,6 @@ a1.CornerRadius = UDim.new(1, 0)
 a1.Parent = a0
 c2.Text = "https://getkey/example"
 c1.Image = "rbxassetid://11501062859"
---
 spawn(function()
 	local TweenOpen1 = game:GetService("TweenService"):Create(a0, TweenInfo.new(1,Enum.EasingStyle.Linear),{Size = UDim2.new(0, 358, 0, 113)});TweenOpen1:Play()
 	local TweenOpen2 = game:GetService("TweenService"):Create(a1, TweenInfo.new(0.5,Enum.EasingStyle.Linear),{CornerRadius = UDim.new(0.15, 0)});TweenOpen2:Play()
@@ -133,7 +131,6 @@ spawn(function()
 	a6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(0.30, 0.00), NumberSequenceKeypoint.new(1.00, 0.00)}
 	a6.Parent = a4
 end)
---
 local function Close()
 	a6:Destroy()
 	local TweenClose1 = game:GetService("TweenService"):Create(c1, TweenInfo.new(0.6,Enum.EasingStyle.Linear),{ImageTransparency = 1});TweenClose1:Play()
@@ -168,9 +165,9 @@ function v2()
 	local v2, v3 = pcall(function()
 		if b1.Text == game:HttpGet("https://1.kelprepl.repl.co/verify/"..string.sub(__Link,35,string.len(__Link)).."?verify_key="..b1.Text) then
 			b1.TextColor3 = Color3.fromHex("#0eb997")
-			wait(1)
-			loadstring(__Script)
-			wait(1)
+			wait(.5)
+			loadstring(game:HttpGet(__Script))
+			wait(.5)
 			Close()
 		end
 	end)
