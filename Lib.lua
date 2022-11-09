@@ -1,1 +1,208 @@
-local v0={};local v1='warn(\"Error: 4 (Script not found)\")';local v2="";local v3=Instance.new("Frame");local v4=Instance.new("Frame");local v5=Instance.new("Frame");local v6=Instance.new("Frame");local v7=Instance.new("UICorner");local v8=Instance.new("Frame");local v9=Instance.new("TextBox");local v10=Instance.new("TextButton");local v11=Instance.new("TextLabel");local v12=Instance.new("UIListLayout");local v13=Instance.new("ImageLabel");local v14=Instance.new("UICorner");local v15=Instance.new("UIGradient");local v16=Instance.new("UIGradient");local v17=Instance.new("UIGradient");local v18=Instance.new("UICorner");local v19=Instance.new("UICorner");if  not game:GetService("RunService"):IsStudio() then if game.CoreGui:FindFirstChild("RobloxGui"):FindFirstChild("MouseIcon") then game.CoreGui.RobloxGui.MouseIcon:Destroy();end v3.v121=game.CoreGui.RobloxGui;v3.v122="MouseIcon";else local v123=Instance.new("ScreenGui");v123.v124=game.Players.LocalPlayer:WaitForChild("PlayerGui");v123.v125=Enum.ZIndexBehavior.Sibling;v3.v126=v123;end v3.v20=Vector2.new(0.5,0.5);v3.v21=Color3.fromRGB(18,18,20);v3.v22=0;v3.v23=UDim2.new(0.5,0,0.5,0);v3.v24=UDim2.new(0,0,0,0);v4.v25=v3;v4.v26=Vector2.new(0.5,0);v4.v27=Color3.fromRGB(22,22,24);v4.v28=1;v4.v29=0;v4.v30=UDim2.new(0.5,0,0,0);v4.v31=UDim2.new(1, -5,1, -5);v5.v32=v4;v5.v33=Vector2.new(0.5,0);v5.v34=Color3.fromRGB(16,16,18);v5.v35=1;v5.v36=0;v5.v37=UDim2.new(0.5,0,0.05,0);v5.v38=UDim2.new(0,333,0,88);v6.v39=v5;v6.v40=Vector2.new(0.5,0);v6.v41=Color3.fromRGB(20,20,21);v6.v42=1;v6.v43=0;v6.v44=UDim2.new(0.5,0,0,0);v6.v45=UDim2.new(1, -4,1, -3);v7.v46=UDim.new(0.1,0);v7.v47=v6;v8.v48=v6;v8.v49=Vector2.new(0.5,0.5);v8.v50=Color3.fromRGB(255,255,255);v8.v51=1;v8.v52=UDim2.new(0.5,0,0.5,0);v8.v53=UDim2.new(0,288,0,45);v9.v54=v8;v9.v55=Vector2.new(0.5,0.5);v9.v56=Color3.fromRGB(255,255,255);v9.v57=1;v9.v58=UDim2.new(0.5,0,0.25,0);v9.v59=UDim2.new(1,0,0.5,0);v9.v60=false;v9.v61=Enum.Font.Roboto;v9.v62=Color3.fromRGB(100,149,237);v9.v63="Enter key here";v9.v64="";v9.v65=Color3.fromRGB(241,70,104);v9.v66=18;v9.v67=1;v10.v68=v8;v10.v69=Vector2.new(0.5,0.5);v10.v70=Color3.fromRGB(255,255,255);v10.v71=1;v10.v72=UDim2.new(0.5,0,0.75,0);v10.v73=UDim2.new(0.1,0,0.5,0);v10.v74=Enum.Font.Roboto;v10.v75="";v10.v76=Color3.fromRGB(255,255,255);v10.v77=18;v10.v78=Enum.AutomaticSize.X;v10.v79=Enum.TextXAlignment.Left;v11.v80=v10;v11.v81=Color3.fromRGB(255,255,255);v11.v82=1;v11.v83=UDim2.new(0,0,1,0);v11.v84=Enum.AutomaticSize.X;v11.v85=Enum.Font.Roboto;v11.v86=Color3.fromRGB(255,255,255);v11.v87=17;v11.v88=1;v12.v89=v10;v12.v90=Enum.FillDirection.Horizontal;v12.v91=UDim.new(0,2);v12.v92=Enum.SortOrder.LayoutOrder;v13.v93=v10;v13.v94=Vector2.new(1,0);v13.v95=Color3.fromRGB(255,255,255);v13.v96=1;v13.v97=1;v13.v98=UDim2.new(1,0,0,0);v13.v99=UDim2.new(0,22,0,22);v14.v100=UDim.new(0.1,0);v14.v101=v5;v15.v102=90;v15.v103=v5;v18.v104=UDim.new(0.1,0);v18.v105=v4;v19.v106=UDim.new(1,0);v19.v107=v3;v15.v108=NumberSequence.new({NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(0.1,0),NumberSequenceKeypoint.new(1,0)});v15.v103=v5;v16.v109=NumberSequence.new({NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(0.03,0),NumberSequenceKeypoint.new(1,0)});v16.v110=v3;v16.v111=90;v17.v112=NumberSequence.new({NumberSequenceKeypoint.new(0,1),NumberSequenceKeypoint.new(0.03,0),NumberSequenceKeypoint.new(1,0)});v17.v113=v4;v17.v114=90;v11.v115="https://getkey/example";v13.v116="rbxassetid://11501062859";spawn(function()local v127=game:GetService("TweenService"):Create(v3,TweenInfo.new(0.5,Enum.EasingStyle.Linear),{Size=UDim2.new(0,113,0,113)});v127:Play();wait(0.4);local v127=game:GetService("TweenService"):Create(v3,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{Size=UDim2.new(0,358,0,113)});v127:Play();wait(0.2);local v127=game:GetService("TweenService"):Create(v19,TweenInfo.new(0.3,Enum.EasingStyle.Linear),{CornerRadius=UDim.new(0.1,0)});v127:Play();v127.Completed:Wait();local v127=game:GetService("TweenService"):Create(v4,TweenInfo.new(0.3,Enum.EasingStyle.Linear),{BackgroundTransparency=0});v127:Play();local v127=game:GetService("TweenService"):Create(v5,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{BackgroundTransparency=0});v127:Play();local v127=game:GetService("TweenService"):Create(v6,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{BackgroundTransparency=0});v127:Play();wait(0.3);local v127=game:GetService("TweenService"):Create(v9,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{TextTransparency=0});v127:Play();local v127=game:GetService("TweenService"):Create(v11,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{TextTransparency=0});v127:Play();local v127=game:GetService("TweenService"):Create(v13,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{ImageTransparency=0});v127:Play();end);local function v117()local v128=game:GetService("TweenService"):Create(v13,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{ImageTransparency=1});v128:Play();local v128=game:GetService("TweenService"):Create(v11,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{TextTransparency=1});v128:Play();local v128=game:GetService("TweenService"):Create(v9,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{TextTransparency=1});v128:Play();wait(0.3);local v128=game:GetService("TweenService"):Create(v6,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{BackgroundTransparency=1});v128:Play();local v128=game:GetService("TweenService"):Create(v4,TweenInfo.new(0.3,Enum.EasingStyle.Linear),{BackgroundTransparency=1});v128:Play();local v128=game:GetService("TweenService"):Create(v5,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{BackgroundTransparency=1});v128:Play();v128.Completed:Wait();local v128=game:GetService("TweenService"):Create(v19,TweenInfo.new(0.3,Enum.EasingStyle.Linear),{CornerRadius=UDim.new(1,0)});v128:Play();wait(0.2);local v128=game:GetService("TweenService"):Create(v3,TweenInfo.new(0.4,Enum.EasingStyle.Linear),{Size=UDim2.new(0,113,0,113)});v128:Play();wait(0.3);local v128=game:GetService("TweenService"):Create(v3,TweenInfo.new(0.5,Enum.EasingStyle.Linear),{Size=UDim2.new(0,0,0,0)});v128:Play();end function v1()local v129,v130=pcall(function()setclipboard(v2);end);if v129 then v13.v133="rbxassetid://11501069060";v13.v134=Color3.fromHex("#0eb997");v11.v135=Color3.fromHex("#0eb997");wait(1);v13.v133="rbxassetid://11501062859";v13.v134=Color3.fromRGB(255,255,255);v11.v135=Color3.fromRGB(255,255,255);else v13.v136=Color3.fromHex("#f14668");v11.v137=Color3.fromHex("#f14668");v11.v138="Link copy error";warn("Error: 2 (Link copy error)");end end print("ㅤ\nㅤㅤㅤㅤKey System v1.1 \nㅤㅤㅤㅤDiscord: https://discord.gg/wKpxWqarYk\nㅤ");function v2()local v131,v132=pcall(function()if (v9.v64==game:HttpGet("https://1.kelprepl.repl.co/verify/"   .. string.sub(v2,35,string.len(v2))   .. "?verify_key="   .. v9.v64)) then v9.v143=Color3.fromHex("#0eb997");wait(0.5);spawn(function()loadstring(game:HttpGet(v1,true))();end);wait(0.5);v117();end end);if  not v131 then warn("Error: 1 (HttpGet error or incorrect key)");end end v10.TouchTap:Connect(v1);v10.MouseButton1Click:Connect(v1);v9.FocusLost:Connect(v2);v0.v118=function(v119,v120)if ((string.len(v119)>34) and (string.sub(v119,1,34)=="https://1.kelprepl.repl.co/getkey/")) then v11.v139="https://getkey/"   .. string.sub(v119,35,string.len(v119));pcall(function()v2=v119;end);else warn("Error: 3 (Incorrect link)");v11.v140="Incorrect link";v13.v141=Color3.fromHex("#f14668");v11.v142=Color3.fromHex("#f14668");end pcall(function()v1=tostring(v120);end);end;return v0;
+local KeySystem = {};
+local __Script = 'warn(\"Error: 4 (Script not found)\")';
+local __Link = "";
+local a0 = Instance.new("Frame");
+local a2 = Instance.new("Frame");
+local a4 = Instance.new("Frame");
+local a7 = Instance.new("Frame");
+local a8 = Instance.new("UICorner");
+local a9 = Instance.new("Frame");
+local b1 = Instance.new("TextBox");
+local b2 = Instance.new("TextButton");
+local c2 = Instance.new("TextLabel");
+local a10 = Instance.new("UIListLayout");
+local c1 = Instance.new("ImageLabel");
+local a5 = Instance.new("UICorner");
+local a6 = Instance.new("UIGradient");
+local a11 = Instance.new("UIGradient");
+local a12 = Instance.new("UIGradient");
+local a3 = Instance.new("UICorner");
+local a1 = Instance.new("UICorner");
+if not game:GetService("RunService"):IsStudio() then
+	if game.CoreGui:FindFirstChild("RobloxGui"):FindFirstChild("MouseIcon") then
+		game.CoreGui.RobloxGui.MouseIcon:Destroy();
+	end
+	a0.Parent = game.CoreGui.RobloxGui;
+	a0.Name = "MouseIcon";
+else
+	local Ui = Instance.new("ScreenGui");
+	Ui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui");
+	Ui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+	a0.Parent = Ui;
+end
+a0.AnchorPoint = Vector2.new(0.5, 0.5);
+a0.BackgroundColor3 = Color3.fromRGB(18, 18, 20);
+a0.BorderSizePixel = 0;
+a0.Position = UDim2.new(0.5, 0, 0.5, 0);
+a0.Size = UDim2.new(0, 0, 0, 0);
+a2.Parent = a0;
+a2.AnchorPoint = Vector2.new(0.5, 0);
+a2.BackgroundColor3 = Color3.fromRGB(22, 22, 24);
+a2.BackgroundTransparency = 1.000
+a2.BorderSizePixel = 0;
+a2.Position = UDim2.new(0.5, 0, 0, 0);
+a2.Size = UDim2.new(1, -5, 1, -5);
+a4.Parent = a2;
+a4.AnchorPoint = Vector2.new(0.5, 0);
+a4.BackgroundColor3 = Color3.fromRGB(16, 16, 18);
+a4.BackgroundTransparency = 1.000;
+a4.BorderSizePixel = 0;
+a4.Position = UDim2.new(0.5, 0, 0.05, 0);
+a4.Size = UDim2.new(0, 333, 0, 88);
+a7.Parent = a4;
+a7.AnchorPoint = Vector2.new(0.5, 0);
+a7.BackgroundColor3 = Color3.fromRGB(20, 20, 21);
+a7.BackgroundTransparency = 1;
+a7.BorderSizePixel = 0;
+a7.Position = UDim2.new(0.5, 0, 0, 0);
+a7.Size = UDim2.new(1, -4, 1, -3);
+a8.CornerRadius = UDim.new(0.1, 0);
+a8.Parent = a7;
+a9.Parent = a7;
+a9.AnchorPoint = Vector2.new(0.5, 0.5);
+a9.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+a9.BackgroundTransparency = 1;
+a9.Position = UDim2.new(0.5, 0, 0.5, 0);
+a9.Size = UDim2.new(0, 288, 0, 45);
+b1.Parent = a9;
+b1.AnchorPoint = Vector2.new(0.5, 0.5);
+b1.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+b1.BackgroundTransparency = 1;
+b1.Position = UDim2.new(0.5, 0, 0.25, 0);
+b1.Size = UDim2.new(1, 0, 0.5, 0);
+b1.ClearTextOnFocus = false;
+b1.Font = Enum.Font.Roboto;
+b1.PlaceholderColor3 = Color3.fromRGB(100, 149, 237);
+b1.PlaceholderText = "Enter key here";
+b1.Text = "";
+b1.TextColor3 = Color3.fromRGB(241, 70, 104);
+b1.TextSize = 18;
+b1.TextTransparency = 1;
+b2.Parent = a9;
+b2.AnchorPoint = Vector2.new(0.5, 0.5);
+b2.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+b2.BackgroundTransparency = 1;
+b2.Position = UDim2.new(0.5, 0, 0.75, 0);
+b2.Size = UDim2.new(0.1, 0, 0.5, 0);
+b2.Font = Enum.Font.Roboto;
+b2.Text = "";
+b2.TextColor3 = Color3.fromRGB(255, 255, 255);
+b2.TextSize = 18;
+b2.AutomaticSize = Enum.AutomaticSize.X;
+b2.TextXAlignment = Enum.TextXAlignment.Left;
+c2.Parent = b2;
+c2.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+c2.BackgroundTransparency = 1;
+c2.Size = UDim2.new(0, 0, 1, 0);
+c2.AutomaticSize = Enum.AutomaticSize.X;
+c2.Font = Enum.Font.Roboto;
+c2.TextColor3 = Color3.fromRGB(255, 255, 255);
+c2.TextSize = 17;
+c2.TextTransparency = 1;
+a10.Parent = b2;
+a10.FillDirection = Enum.FillDirection.Horizontal;
+a10.Padding = UDim.new(0, 2);
+a10.SortOrder = Enum.SortOrder.LayoutOrder;
+c1.Parent = b2;
+c1.AnchorPoint = Vector2.new(1, 0);
+c1.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+c1.BackgroundTransparency = 1;
+c1.ImageTransparency = 1;
+c1.Position = UDim2.new(1, 0, 0, 0);
+c1.Size = UDim2.new(0, 22, 0, 22);
+a5.CornerRadius = UDim.new(0.1, 0);
+a5.Parent = a4;
+a6.Rotation = 90;
+a6.Parent = a4;
+a3.CornerRadius = UDim.new(0.1, 0);
+a3.Parent = a2;
+a1.CornerRadius = UDim.new(1, 0);
+a1.Parent = a0;
+a6.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 1),NumberSequenceKeypoint.new(0.1, 0),NumberSequenceKeypoint.new(1, 0)});
+a6.Parent = a4;
+a11.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 1),NumberSequenceKeypoint.new(0.03, 0),NumberSequenceKeypoint.new(1, 0)});
+a11.Parent = a0;
+a11.Rotation = 90;
+a12.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 1),NumberSequenceKeypoint.new(0.03, 0),NumberSequenceKeypoint.new(1, 0)});
+a12.Parent = a2;
+a12.Rotation = 90;
+c2.Text = "https://getkey/example";
+c1.Image = "rbxassetid://11501062859";
+spawn(function()
+	local Tween = game:GetService("TweenService"):Create(a0, TweenInfo.new(0.5, Enum.EasingStyle.Linear), {Size=UDim2.new(0, 113, 0, 113)}); Tween:Play(); wait(.4)
+	local Tween = game:GetService("TweenService"):Create(a0, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {Size=UDim2.new(0, 358, 0, 113)}); Tween:Play(); wait(.2)
+	local Tween = game:GetService("TweenService"):Create(a1, TweenInfo.new(0.3, Enum.EasingStyle.Linear), {CornerRadius = UDim.new(0.1, 0)}); Tween:Play(); Tween.Completed:Wait()
+	local Tween = game:GetService("TweenService"):Create(a2, TweenInfo.new(0.3, Enum.EasingStyle.Linear), {BackgroundTransparency = 0.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(a4, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundTransparency = 0.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(a7, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundTransparency = 0.000}); Tween:Play(); wait(.3)
+	local Tween = game:GetService("TweenService"):Create(b1, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {TextTransparency = 0.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(c2, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {TextTransparency = 0.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(c1, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {ImageTransparency = 0.000}); Tween:Play()
+end);
+local function Close()
+	local Tween = game:GetService("TweenService"):Create(c1, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {ImageTransparency = 1.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(c2, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {TextTransparency = 1.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(b1, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {TextTransparency = 1.000}); Tween:Play(); wait(.3)
+	local Tween = game:GetService("TweenService"):Create(a7, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundTransparency = 1.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(a2, TweenInfo.new(0.3, Enum.EasingStyle.Linear), {BackgroundTransparency = 1.000}); Tween:Play()
+	local Tween = game:GetService("TweenService"):Create(a4, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {BackgroundTransparency = 1.000}); Tween:Play(); Tween.Completed:Wait()
+	local Tween = game:GetService("TweenService"):Create(a1, TweenInfo.new(0.3, Enum.EasingStyle.Linear), {CornerRadius = UDim.new(1, 0)}); Tween:Play(); wait(.2)
+	local Tween = game:GetService("TweenService"):Create(a0, TweenInfo.new(0.4, Enum.EasingStyle.Linear), {Size=UDim2.new(0, 113, 0, 113)}); Tween:Play(); wait(.3)
+	local Tween = game:GetService("TweenService"):Create(a0, TweenInfo.new(0.5, Enum.EasingStyle.Linear), {Size=UDim2.new(0, 0, 0, 0)}); Tween:Play()
+end
+function v1()
+	local v2, v3 = pcall(function()
+		setclipboard(__Link);
+	end);
+	if v2 then
+		c1.Image = "rbxassetid://11501069060";
+		c1.ImageColor3 = Color3.fromHex("#0eb997");
+		c2.TextColor3 = Color3.fromHex("#0eb997");
+		wait(1);
+		c1.Image = "rbxassetid://11501062859";
+		c1.ImageColor3 = Color3.fromRGB(255, 255, 255);
+		c2.TextColor3 = Color3.fromRGB(255, 255, 255);
+	else
+		c1.ImageColor3 = Color3.fromHex("#f14668");
+		c2.TextColor3 = Color3.fromHex("#f14668");
+		c2.Text = "Link copy error";
+		warn("Error: 2 (Link copy error)");
+	end
+end
+print("ㅤ\nㅤㅤㅤㅤKey System v1.1 \nㅤㅤㅤㅤDiscord: https://discord.gg/wKpxWqarYk\nㅤ");
+function v2()
+	local v2, v3 = pcall(function()
+		if (b1.Text == game:HttpGet("https://1.kelprepl.repl.co/verify/" .. string.sub(__Link, 35, string.len(__Link)) .. "?verify_key=" .. b1.Text)) then
+			b1.TextColor3 = Color3.fromHex("#0eb997");
+			wait(0.5);
+			spawn(function()
+				loadstring(game:HttpGet(__Script, true))();
+			end);
+			wait(0.5);
+			Close();
+		end
+	end);
+	if not v2 then
+		warn("Error: 1 (HttpGet error or incorrect key)");
+	end
+end
+b2.TouchTap:Connect(v1);
+b2.MouseButton1Click:Connect(v1);
+b1.FocusLost:Connect(v2);
+KeySystem.Sus = function(v0, v9)
+	if ((string.len(v0) > 34) and (string.sub(v0, 1, 34) == "https://1.kelprepl.repl.co/getkey/")) then
+		c2.Text = "https://getkey/" .. string.sub(v0, 35, string.len(v0));
+		pcall(function()
+			__Link = v0;
+		end);
+	else
+		warn("Error: 3 (Incorrect link)");
+		c2.Text = "Incorrect link";
+		c1.ImageColor3 = Color3.fromHex("#f14668");
+		c2.TextColor3 = Color3.fromHex("#f14668");
+	end
+	pcall(function()
+		__Script = tostring(v9);
+	end);
+end;
+return KeySystem;
