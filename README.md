@@ -2,11 +2,11 @@
 
 **Simple convenient free key system**
 
-▶ [Example](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-example-)
+▶ [Example code](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-example-)
 
-▶ [Usage](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-usage-)
+▶ [Usage code](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-usage-)
 
-▶ [Discord](https://discord.com/enmKTMQvFJ)
+▶ [Discord server](https://discord.com/enmKTMQvFJ)
 
 ##	▶ Supports links(Link) ◀
 ● [https://bit.ly](https://bit.ly)
