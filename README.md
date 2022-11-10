@@ -10,7 +10,6 @@ Version: 1.2
 
 ▶ [Discord server](https://discord.com/invite/enmKTMQvFJ)
 
-##	▶ Screenshot ◀
 ![Screenshot](https://github.com/OopssSorry/FreeKeySystem/blob/main/Screenshot.png)
 
 ##	▶ Supports links(Link) ◀
