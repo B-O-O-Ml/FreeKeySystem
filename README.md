@@ -6,7 +6,7 @@
 
 ▶ [Usage code](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-usage-)
 
-▶ [Discord server](https://discord.com/enmKTMQvFJ)
+▶ [Discord server](https://discord.com/invite/enmKTMQvFJ)
 
 ##	▶ Supports links(Link) ◀
 ● [https://bit.ly](https://bit.ly)
