@@ -1,6 +1,11 @@
-# FreeKeySystem
-[Example](Example)
-[Usage](Usage)
+# Free Key System Ui
+
+**Simple convenient free key system**
+
+[Example](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-example-)
+
+[Usage](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-usage-)
+
 ##	▶ Supports links(Link) ◀
 ● [https://bit.ly](https://bit.ly)
 
