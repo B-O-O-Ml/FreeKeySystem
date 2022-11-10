@@ -36,7 +36,7 @@ Version: 1.2
 ● [https://link-hub.net](https://link-hub.net)
 
 ##	▶ Supports links(Key) ◀
-● Simple Key lik "Key_1234"
+● Simple Key like "Key_1234"
 
 ● [https://pastebin.com/raw](https://pastebin.com/raw)
 
