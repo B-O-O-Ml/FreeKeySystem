@@ -3,22 +3,35 @@
 [Usage](Usage)
 ##	▶ Supports links(Link) ◀
 ● [https://bit.ly](https://bit.ly)
+
 ● [https://cutt.ly](https://cutt.ly)
+
 ● [https://1.kelprepl.repl.co](https://1.kelprepl.repl.co)
+
 ● [https://discord.com/invite](https://discord.com/invite)
+
 ● [https://linkvertise.com](https://linkvertise.com)
+
 ● [https://linkvertise.net](https://linkvertise.net)
+
 ● [https://linkvertise.download](https://linkvertise.download)
+
 ● [https://direct-link.net](https://direct-link.net)
+
 ● [https://link-to.net](https://link-to.net)
+
 ● [https://link-center.net](https://link-center.net)
+
 ● [https://link-hub.net](https://link-hub.net)
 
 ##	▶ Supports links(Key) ◀
 ● Simple Key
 ● [https://pastebin.com/raw](https://pastebin.com/raw)
+
 ● [https://1.kelprepl.repl.co](https://1.kelprepl.repl.co)
+
 ● [https://raw.githubusercontent.com](https://raw.githubusercontent.com)
+
 
 ##	▶ Supports links(Script)◀
 ● All but only in raw
