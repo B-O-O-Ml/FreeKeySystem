@@ -38,15 +38,12 @@ Version: 1.2
 ##	▶ Supports links(Key) ◀
 ● Simple Key like "Key_1234"
 
-● [https://pastebin.com/raw](https://pastebin.com/raw)
-
 ● [https://1.kelprepl.repl.co](https://1.kelprepl.repl.co)
 
-● [https://raw.githubusercontent.com](https://raw.githubusercontent.com)
-
+● All raw
 
 ##	▶ Supports links(Script)◀
-● All but only in raw
+● All raw
 
 ##	▶ Example ◀
 ```lua
