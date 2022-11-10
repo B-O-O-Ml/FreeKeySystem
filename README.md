@@ -1,6 +1,7 @@
 # Free Key System Ui
 
-**Simple convenient free key system**
+**Simple convenient free key system **
+Version: 1.2
 
 ▶ [Example code](https://github.com/OopssSorry/FreeKeySystem/blob/main/README.md#-example-)
 
