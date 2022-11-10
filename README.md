@@ -1,6 +1,6 @@
 # Free Key System Ui
 
-**Simple convenient free key system **
+**Simple convenient free key system**
 
 Version: 1.2
 
